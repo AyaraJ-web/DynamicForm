@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Stars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img class="anim" src="frost.png" width="100%">
+    <div class="disp">
+        <p>
+            <img src="dyna-icon.png" width="50px">
+        </p>
+        <p>WELCOME TO</p>
+        <p>DYNAMIC STARS</p>
+        <button class="mang" onclick="regs()">Register</button>
+        <button class="mang" onclick="logIn()">login</button>
+    </div>
+    <script>
+        function regs() {
+            let a = document.createElement('a');
+            a.href = 'register.html';
+            a.click();
+        }
+
+        function logIn() {
+            let a = document.createElement('a');
+            a.href = 'login.html';
+            a.click();
+        }
+    </script>
+</body>
+</html>

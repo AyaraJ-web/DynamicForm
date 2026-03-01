@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="dyna-icon.png">
+    <title>Dynamic Stars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="stform">
+        <img id="stand" src="laptop.png" width="70px">
+        <br>
+        <label>DYNAMIC STARS</label>
+        <br>
+        <label>VOCATIONAL INSTITUTE</label>
+        <br>
+        <div id="details">
+            <label>Enter name:</label>
+            <br>
+            <input id="name" minlength="3" required placeholder="Full name">
+            <br>
+            <label>Enter Age:</label>
+            <br>
+            <input id="age" type="number" max="50" min="13" required placeholder="13 to 50">
+            <br>
+            <label>Whatsapp:</label>
+            <br>
+            <input id="number" type="tel" maxlength="15" minlength="11" required>
+            <br>
+            <label>Course to apply:</label>
+            <br>
+            <select id="course" required>
+                <option value="MS-office">MS-Office (1-month)</option>
+                <option value="Graphic">Graphic Design (2-month)</option>
+                <option value="Desktop">Desktop Publishing (3-month)</option>
+            </select>
+            <br>
+            <label>Gender:</label>
+            <br>
+            <select id="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+        <input class="mang sml" type="submit">
+        <input class="mang sml" id="reset" type="reset">
+        <input class="mang sml" type="button" value="Back" onclick="back()">
+    </form>
+    <script src="register.js"></script>
+</body>
+</html>

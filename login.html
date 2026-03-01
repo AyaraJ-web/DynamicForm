@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Stars | Active</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body onload="checkLog()">
+    <div class="updates">
+        <img id="load" src="load-icon.png">
+    </div>
+    <div id="menu" class="disp" onclick="menu()">
+        <img id="mimg" src="menu.png" width="20px">
+    </div>
+    <div class="menupage">
+        <header>MENU</header>
+        <p onclick="update()">Updtates</p>
+        <p onclick="logOut()">Log Out</p>
+        <p onclick="back()">Close</p>
+    </div>
+    <div id="log">
+        <div id="details">
+            <div class="disp">
+                <img id="stand" src="laptop.png" width="70px">
+                <br>
+                <label>Student name: </label>
+                <br>
+                <input id='name'>
+                <br>
+                <label>Whatsapp: </label>
+                <br>
+                <input id='tel' type="tel">
+                <button class="mang" onclick="logIn()">Login</button>
+                <br>
+                <button class="mang" onclick="back()">Cancel</button>
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
