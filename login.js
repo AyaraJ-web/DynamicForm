@@ -11,8 +11,8 @@ let UserLog = {
 const loader = document.getElementById('stand');
 
 //Server protocols
-const supabase_url = 'https://hpnlzexzsjcintahoymr.supabase.co';
-const api_key = 'sb_publishable_2aH-L-xECkHkKF_p3uPPzA_QY6pdhmR';
+const supabase_url = 'https://defztlldsfpdryqayask.supabase.co';
+const api_key = 'sb_publishable_12IpGsNa_nl1PlsTOCuW4w_-HhNAsW_';
 const table = 'students';
 const table_upd = 'updates';
 
